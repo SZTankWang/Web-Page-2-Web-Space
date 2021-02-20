@@ -1,0 +1,41 @@
+﻿CourseSite  |  Zoom  |  Slack  |  Glitch
+
+
+Web Page to Web Space
+Course Schedule | Spring 2021
+
+
+
+
+________________
+W01 Introduction to Web Page to Web Space | Jan 25, 2021
+Concepts and Activities
+Lecture:
+* Class introductions (slides)
+* Overview of materials to be explored
+* Discussion of project expectations
+* Overview of Instructional Tools
+
+
+Asynchronous exercises:
+* Transformation functions in p5.js (slides)
+* Vectors (slides)
+* Vector math functions in p5.js (reference page)
+   * add(), sub(), mult(), div()
+   * copy(), setMag(), limit()
+   * heading(), rotate(), fromAngle()
+* Math functions in p5.js
+   * map(), constrain(), lerp()
+
+
+Assignment  Due Jan 31, 2021
+* Transformations and Vectors in p5.js
+* Readings: The Nature of Code
+   * Chapter 1. Vectors
+   * Chapter 2. Forces
+
+
+Additional Reading, Watching, and Resources:
+* p5.js reference
+* The Coding Train - Code! Programming with p5.js
+* Getting Started with p5.js (Link to the book in NYU library)
