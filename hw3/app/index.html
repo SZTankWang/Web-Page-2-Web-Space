@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>WP2WS Sketch</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+        <script src="/libs/stats.min.js"></script>
+    <script src="/libs/dat.gui.min.js"></script>
+    
+    <!-- p5.js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"
+      crossorigin="anonymous"
+    ></script>
+    
+    <script src="/libs/three.js">
+    
+    </script>
+    <script src="libs/OrbitControls.js">
+    </script>
+<!--     <script src = "/ball.js"></script>
+    <script src="/demo1.js" defer></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js" crossorigin="anonymous"></script> -->
+    <!-- ml5.js -->
+    <!-- <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js" crossorigin="anonymous"></script> -->
+    <!-- three.js -->
+
+
+
+  </head>
+  <body>
+    <!-- add your HTML elements here. -->
+    <div class="row">
+      <div class="text">
+        <h1>
+          WP2WS Week 3
+        </h1>
+        <h3>
+          Starting with three.js
+        </h3>
+        <h3>
+          Zhenming Wang
+        </h3>
+      </div>
+      
+    </div>
+    <div class="row">
+      <div class="section">
+        <div class="text">
+          <h3>
+            Demo 1
+          </h3>
+          <p>
+            In this demo, I create a group of balls with the material of type Phong. 
+            It is similar to the example we did in class, however, I decide to add interactive effect to it.
+            As you clicked on the canvas, the balls would receive an arbitrary force and getting `pushed` somewhere else.
+          </p>
+        </div>
+        
+        <iframe width = "800" height="800" src="/demo1.html">
+
+        </iframe>
+      </div>
+
+      <div class="section">
+        <div class="text">
+          <h3>
+            Demo 2
+          </h3>
+          <p>
+            In this demo, I explore more about fundamental three.js . I experiment with other geometry type such as
+            plane and box. I also make use of the Axes Helper, which helps me determine the 3D position .
+            To interact with the visuals, click on the canvas to give those cubes an arbitrary forces and make them accelerate.
+          </p>
+          <p>
+            I also utilize the `fog` effect. Use your mouse's scroll wheel to zoom in. The objects that appear further in the scene
+            would have a mist above. I find it very interesting.
+  
+          </p>
+        </div>
+        <iframe width = "800" height="800" src="/demo2.html">
+
+        </iframe>
+      </div>      
+    </div>
+
+  </body>
+</html>

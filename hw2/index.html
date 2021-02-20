@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>WP2WS Sketch</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- p5.js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js" crossorigin="anonymous"></script> -->
+    <!-- ml5.js -->
+    <!-- <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js" crossorigin="anonymous"></script> -->
+    <!-- three.js -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r124/three.min.js" crossorigin="anonymous"></script> -->
+    <script src="/ball.js"></script>
+
+
+  </head>
+  <body>
+    <!-- add your HTML elements here. -->
+    <div class = "outer-container">
+       <div class = 'text-container'>
+        <h1>
+          Zhenming Wang's second homework. 
+        </h1>
+        <h2>
+          WP2WS：Generating Visuals with Force
+        </h2>
+        <p>
+
+          a heuristic approach
+        </p>      
+      </div>
+
+     <div class="container">
+       <div class="container section-container">
+         <div class = "text-container">
+           <h3>
+             demo1
+           </h3>
+           <p>
+             I combine three types of force : gravity, friction, and wind force.  
+           </p>
+           <p>
+             To make the demo reproducible, the wind force here might be a bit exaggerate. To let the ball move again, just click on the canvas ! 
+           </p>
+         </div>
+         <iframe width="400" height="400" src="/demo1.html">
+
+         </iframe>
+       </div>
+       
+        <div class="container section-container">
+         <div class = "text-container">
+           <h3>
+             demo2
+           </h3>
+           <p>
+             I try to create gravitational attraction in this demo. I refered to the Coding train's tutorial during development.
+             However, the inter-objects attraction is somehow different from what Coding train managed to visualize. My `satellite` here experience an enormous amount of gravitational force, and thus exhibit acceleration when they get close enough to the central object.
+           </p>
+         </div>
+         <iframe width="600" height="600" src="/demo2.html">
+
+         </iframe>
+       </div>
+       
+            
+       
+<!--        <div class="container section-container">
+         <div class = "text-container">
+           <h3>
+             demo2
+           </h3>
+           <p>
+             I try to create gravitational attraction in this demo. I refered to the Coding train's tutorial during development.
+             However, the inter-objects attraction is somehow different from what Coding train managed to visualize. My `satellite` here experience an enormous amount of gravitational force, and thus exhibit acceleration when they get close enough to the central object.
+           </p>
+         </div>
+         <iframe width="600" height="600" src="/demo3.html">
+
+         </iframe>
+       </div> -->
+       
+      </div>      
+    </div>
+
+  </body>
+</html>
